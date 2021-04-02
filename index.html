@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="rahmoon" content="Farhan Ali Rahmoon portfolio website.">
+    <title>Farhan Rahmoon - Official Portfolio</title>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Creating Menu Tabs & Logo at Top Using HTML -->
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">Resume</a></li>
+            <li><a href="#work" onclick="toggleMenu();">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact me</a></li>
+        </ul>
+    </header>
+
+    <div id="particles-js"></div>
+
+    <!-- Creating Banner Layout in HTML -->
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2 class="info2">Hello! I'm<br> <span>Farhan Ali Rahmoon</span></h2>
+            <h3 class="info">I <span class="typed2"></span></h3>
+            <a href="#about" class="btn">About Me</a>
+        </div>
+    </section>
+
+    <a class="anchor" id="about"></a>
+    <!-- Creating About Me Layout in HTML -->
+    <section class="about">
+        <!-- <div class="heading">
+            <p>Get to Know me</p>
+            <h2>About Me</h2>
+        </div> -->
+        <div class="content">
+            <div class="w50" id="picture">
+                <img src="images/myPic2.png" alt="" class="proPic">
+            </div>
+            <div class="contentBx w50">
+                <p id="top1">Get to Know me</p>
+                <h2 id="top2"><b>About Me</b></h2>
+                <h3>Who am i?</h3>
+                <h2>I'm <b>Farhan A. Rahmoon</b>, a Software Developer</h2>
+                <p>I am currently a student at Simon Fraser University studying Computer Science. I started coding basic
+                    logical programs at the age of 13, and the first ever programming language I
+                    used was C++. Over the years I've picked up many skills and I've dipped my feet in Artificial
+                    Intelligence, Machine Learning, Data Science, Linux and Web Devlopment. I believe I found my sweet
+                    spot in the software industry in Artificial Intelligence and Machine Learning at around age 18, and
+                    I devoted most of my free time to it, learning modules like PyTorch, NumPy and Pyplot.</p><br>
+                <p>So far I have programmed in Python, Java, C, C++, Assembly Language (x86-64), HTML, CSS, and
+                    JavaScript (Node.js). I'm also
+                    experienced with MongoDB and MySQL. I'm still looking to learn other programming languages, and
+                    frameworks because I believe that learning is a never-ending journey, the more you learn the better
+                    you become.</p>
+                <div class="heading bottom">
+                    <a href="#" class="btn round">Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <a class="anchor" id="work"></a>
+    <!-- Creating Work Layout in HTML -->
+
+    <section class="work">
+        <div class="heading">
+            <h2>Work Showcase</h2>
+            <p>Showcasing some of my <b>personal</b> and <b>team projects</b></p>
+        </div>
+        <div class="content">
+            <div class="workBx">
+                <a href="#" target="_blank">
+                    <img src="images/1280x0720.jpg" alt="">
+                    <p>PLACEHOLDER FOR PROJECT TO BE ADDED...</p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="#" target="_blank">
+                    <img src="images/1280x0720.jpg" alt="">
+                    <p>PLACEHOLDER FOR PROJECT TO BE ADDED...</p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="#" target="_blank">
+                    <img src="images/1280x0720.jpg" alt="">
+                    <p>PLACEHOLDER FOR PROJECT TO BE ADDED...</p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="#" target="_blank">
+                    <img src="images/1280x0720.jpg" alt="">
+                    <p>PLACEHOLDER FOR PROJECT TO BE ADDED...</p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="#" target="_blank">
+                    <img src="images/1280x0720.jpg" alt="">
+                    <p>PLACEHOLDER FOR PROJECT TO BE ADDED...</p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="#" target="_blank">
+                    <img src="images/1280x0720.jpg" alt="">
+                    <p>PLACEHOLDER FOR PROJECT TO BE ADDED...</p>
+                </a>
+            </div>
+            <div class="heading">
+                <a href="https://github.com/FarhanRah" target="_blank" class="btn" style="color:#fff;">Checkout my
+                    GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Contact Layout in HTML -->
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <h2>Get in Touch</h2>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <p>Feel free to contact me anytime. If any further information needed regarding my projects, I will be
+                    happy to provide it.</p>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>Farhan Ali Rahmoon,<br>East 33rd Avenue<br>Vancouver<br>BC, V5V 3A9</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone no :</h3>
+                            <p>236-512-4114</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email Address</h3>
+                            <p>farhan_rahmoon@sfu.ca</p>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>Social Connect</h3>
+                    <div class="boxSocial">
+                        <div class="icon">
+                            <a href="https://www.facebook.com" target="_blank">
+                                <i class="fa fa-facebook-square"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.twitter.com" target="_blank">
+                                <i class="fa fa-twitter-square"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.linkedin.com/" target="_blank">
+                                <i class="fa fa-linkedin-square"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.instagram.com/?hl=en" target="_blank">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formBx">
+                <form>
+                    <h3>Message Me</h3>
+                    <input type="text" placeholder="Full Name" name="">
+                    <input type="email" placeholder="Email" name="">
+                    <textarea name="" rows="6" id="" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send Message" name="">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Footer Layout in HTML -->
+    <footer class="copyright">
+        <p>Copyright &copy; Farhan Ali Rahmoon 2021</p>
+    </footer>
+
+    <script src="ext.js" language="javascript"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        // This is for the typed.js
+        var typed = new Typed('.typed2', {
+            strings: ["am a Student", "love AI and ML", "care about accessibility", "constantly expand my limits", "am a UI/UX entusiast", "enjoy open source projects", "love pizza! Oh, and chocolates"],
+            backSpeed: 50,
+            typeSpeed: 50,
+            loop: true,
+            showCursor: false
+        });
+    </script>
+</body>
+
+</html>
