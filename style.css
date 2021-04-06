@@ -126,7 +126,7 @@ section {
 
 .info {
     position: relative;
-    z-index: 2;
+    z-index: 1;
 }
 
 .typed2 {
@@ -135,7 +135,7 @@ section {
 
 .info2 {
     position: relative;
-    z-index: 2;
+    z-index: 1;
 }
 
 .btn {
@@ -191,7 +191,7 @@ main {
 
 .content{
     display:flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 #picture {
@@ -221,14 +221,14 @@ main {
 }
 
 .contentBx #top1 {
-    padding-right: 40%;
+    padding-right: 20%;
     text-align: center;
     font-style: italic;
     font-size:14px;
 }
 
 .contentBx #top2 {
-    padding-right: 40%;
+    padding-right: 20%;
     text-align: center;
     font-size: 3em;
     color:#009e66
@@ -250,6 +250,7 @@ main {
     max-height:450px;
     width: auto;
     height: auto;
+    margin-left: 70px;
 }
 
 .heading.bottom {
@@ -257,6 +258,7 @@ main {
     justify-content: space-between;
     flex-direction:row;
     align-items: center;
+    margin-top: 20px;
 }
 
 .btn.round {
@@ -277,7 +279,7 @@ main {
 }
 
 .w50 {
-    min-width:25%;
+    min-width: 300px;
 }
 
 img {
@@ -655,7 +657,6 @@ footer.copyright {
 
     .textBx {
         position:relative;
-        top:170px;
     }
 
     .btn {
@@ -739,6 +740,11 @@ footer.copyright {
         align-items: center;
         flex-direction:row;
     }
+
+    main {
+        padding-left: 36px;
+        padding-right: 40px;
+    }
 }
 
 @media (max-width: 600px) {
@@ -751,7 +757,7 @@ footer.copyright {
 
     .contactMe .myContact {
         flex-direction: column;
-        width: 35%;
+        width: 56%;
         margin: auto;
     }
 }
@@ -769,6 +775,21 @@ footer.copyright {
         text-align: center;
         font-size: 2.5em;
         color:#009e66
+    }
+}
+
+@media (max-width: 400px) {
+    .banner h2 {
+        font-size: 1.3em;
+        font-weight: 700;
+    }
+
+    .banner h3 {
+        font-size: 0.95em;
+    }
+
+    .contentBx #top2 {
+        font-size: 2em;
     }
 }
 
