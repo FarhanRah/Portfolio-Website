@@ -473,6 +473,7 @@ img {
 
 .contactMe {
     background-color: #000;
+    isolation: isolate;
 }
 
 .contactMe .contactHead {
@@ -529,6 +530,7 @@ footer.copyright {
     color:#fff;
     text-align: center;
     padding:10px;
+    isolation: isolate;
 }
 
 @media (max-width: 1200px) {

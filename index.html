@@ -36,6 +36,8 @@
         </div>
     </section>
 
+    <hr>
+
     <a class="anchor" id="about"></a>
     <!-- Creating About Me Layout in HTML -->
     <main class="about">
@@ -45,7 +47,7 @@
             </div>
             <div class="contentBx w50">
                 <p id="top1" style="text-align: center;">Get to Know me</p>
-                <h2 id="top2"><b>About Me</b></h2>
+                <h2 id="top2" style="isolation: isolate;"><b>About Me</b></h2>
                 <h3>Who am i?</h3>
                 <h2 style="text-align: left;">I'm <b>Farhan A. Rahmoon</b>, a Software Developer</h2>
                 <p style="text-align: left;">I am currently a student at Simon Fraser University studying Computer
@@ -74,7 +76,7 @@
 
     <section class="work">
         <div class="heading">
-            <h2>Work Showcase</h2>
+            <h2 style="isolation: isolate;">Work Showcase</h2>
             <p>Showcasing some of my <b>personal</b> and <b>team projects</b></p>
         </div>
         <div class="content">
@@ -121,6 +123,8 @@
             </div>
         </div>
     </section>
+
+    <hr>
 
     <!-- Creating Contact Layout in HTML -->
     <div class="contactMe testClass" id="contact">
@@ -180,13 +184,14 @@
         </div>
     </div>
 
-    <hr>
+    <hr style="z-index: 2; isolation: isolate;">
 
     <!-- Creating Footer Layout in HTML -->
     <footer class="copyright">
         <p>Copyright &copy; Farhan Ali Rahmoon 2021</p>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
     <script src="ext.js" language="javascript"></script>
     <script src="particles.js"></script>
     <script src="app.js"></script>
@@ -200,6 +205,12 @@
             loop: true,
             showCursor: false
         });
+
+        // This is fpr darkmode.js
+        function addDarkmodeWidget() {
+            new Darkmode().showWidget();
+        }
+        window.addEventListener('load', addDarkmodeWidget);
     </script>
 </body>
 
