@@ -28,6 +28,10 @@
     background: grey; 
 }
 
+.darkmode-toggle {
+    z-index: 10;
+  }
+
 header {
     position:fixed;
     top:0;
@@ -338,6 +342,10 @@ img {
 
 .work .content .workBx p {
     text-align:center;
+}
+
+.darkmode--activated .work .content .workBx p {
+    color: white;
 }
 
 .work .content .workBx a:link,
