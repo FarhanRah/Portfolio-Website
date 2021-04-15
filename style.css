@@ -541,6 +541,31 @@ footer.copyright {
     isolation: isolate;
 }
 
+@media (max-width: 1670px) {
+    .work .content .testClass {
+        top: 1px;
+    }
+
+    .work .content .testClass2 {
+        top: 1px;
+    }
+
+    .work .content .testClass4 {
+        position: relative;
+        bottom: 90px;
+    }
+
+    .work .content .testClass5 {
+        position: relative;
+        bottom: 190px;
+    }
+
+    .work .content .testClass6 {
+        position: relative;
+        top: 90px;
+    }
+}
+
 @media (max-width: 1200px) {
     main {
         padding: 80px;
@@ -571,6 +596,16 @@ footer.copyright {
         color:#009e66;
         font-size: 42px;
         cursor:pointer;
+    }
+}
+
+@media (max-width: 1170px) {
+    .work .content .testClass4 {
+        top: 1px;
+    }
+
+    .work .content .testClass5 {
+        top: 1px;
     }
 }
 
