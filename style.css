@@ -30,7 +30,7 @@
 
 .darkmode-toggle {
     z-index: 10;
-  }
+}
 
 header {
     position:fixed;
@@ -244,12 +244,6 @@ main {
 }
 
 .proPic {
-    /* width:1100px;
-    height:450px;
-    display: flex;
-    flex-basis: 1100px;
-    flex-shrink: 0; */
-    /* display: block; */
     max-width:1100px;
     max-height:450px;
     width: auto;
@@ -357,128 +351,6 @@ img {
 }
 
 /* Creating Contact Details Layout in CSS */
-.contact {
-    background:#111;
-}
-
-.formBx {
-    min-width:60%;
-}
-
-.formBx form {
-    display:flex;
-    flex-direction:column;
-}
-
-.formBx form h3,
-.contactInfo h3 {
-    color:#fff;
-    font-size: 20px;
-    font-weight: 500;
-    margin-bottom: 10px;
-}
-
-.formBx form input,
-.formBx form textarea {
-    margin-bottom: 20px;
-    padding:15px;
-    font-size: 16px;
-    background:transparent;
-    border:none;
-    outline:none;
-    background:#161616;
-    resize:vertical;
-    color:#fff;
-}
-
-.formBx form input:focus,
-.formBx form textarea:focus {
-    transition:0.5s;
-    -webkit-transition:0.5s;
-    -moz-transition:0.5s;
-    -ms-transition:0.5s;
-    -o-transition:0.5s;
-    border-bottom:1px solid #009e66;
-}
-
-.formBx form input::placeholder,
-.formBx form textarea::placeholder {
-    color:#999;
-}
-
-.formBx form input[type="submit"] {
-    background:#009e66;
-    max-width:250px;
-    cursor:pointer;
-    font-weight: 600;
-    letter-spacing: 2px;
-    border-radius: 50px;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    -ms-border-radius: 50px;
-    -o-border-radius: 50px;
-}
-
-.contactInfo {
-    min-width:40%;
-}
-
-.contactInfo p {
-    color:#999;
-}
-
-.contactInfoBx {
-    position:relative;
-}
-
-.contactInfoBx .box {
-    position:relative;
-    padding:20px 0;
-    display:flex;
-}
-
-.contactInfoBx .box .icon {
-    color:#fff;
-    min-width:40px;
-    padding-top:4px;
-    display:flex;
-    justify-content: center;
-    align-items: flex-start;
-    font-size: 24px;
-}
-
-.contactInfoBx .box .text {
-    color:#999;
-    margin-left:20px;
-    font-size: 16px;
-    flex-direction: column;
-    font-weight: 300;
-}
-
-.contactInfoBx .box .text h3 {
-    font-weight: 500;
-    color:#009e66;
-    margin-bottom: 0;
-}
-
-.contactInfoBx .box .text p {
-    font-weight: 300;
-    color:#999;
-}
-
-.contactInfoBx .boxSocial {
-    display:flex;
-    flex-direction:row;
-    letter-spacing: 15px;
-    padding-left:60px;
-}
-
-.contactInfoBx .boxSocial .fa {
-    color:#009e66;
-    font-size: 42px;
-    cursor:pointer;
-}
-
 .contactMe {
     background-color: #000;
     isolation: isolate;
@@ -496,8 +368,6 @@ img {
     color:#009e66;
     display: flex;
     justify-content: center;
-    /* width: 60%;
-    margin: auto; */
 }
 
 .contactMe .myContact .box {
@@ -521,8 +391,6 @@ img {
     display:flex;
     flex-direction:row;
     letter-spacing: 15px;
-    /* width: 12%;
-    margin: auto; */
     justify-content: center;
     padding-bottom: 30px;
 }
