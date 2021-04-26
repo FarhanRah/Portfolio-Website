@@ -20,9 +20,9 @@ const options = {
     backgroundColor: '#fff',  // default: '#fff'
     buttonColorDark: '#100f2c',  // default: '#100f2c'
     buttonColorLight: '#fff', // default: '#fff'
-    saveInCookies: false, // default: true,
+    saveInCookies: true, // default: true,
     label: '🍁', // default: ''
-    autoMatchOsTheme: false // default: true
+    autoMatchOsTheme: true // default: true
 }
 
 const darkmode = new Darkmode(options);
