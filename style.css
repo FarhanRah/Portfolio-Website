@@ -292,15 +292,6 @@ img {
     padding: 0 4px;
 }
 
-.work .content {
-    margin:0 auto;
-    display:flex;
-    justify-content: center;
-    flex-wrap:wrap;
-    flex-direction:row;
-    max-width: 1500px;
-}
-
 .work .row .column {
     flex: 25%;
     max-width: 25%;
@@ -309,11 +300,6 @@ img {
 
 .work .row .column:not(:first-child) {
     margin-left: 30px;
-}
-
-.work .row .column a {
-    text-decoration: none;
-    color: #000;
 }
 
 .work .row .column img {
@@ -336,6 +322,11 @@ img {
     -o-transition:0.5s;
 }
 
+/* Curved edges just for the image with phone background */
+.work .row .customRadius img:hover {
+    border-radius: 10%;
+}
+
 .work .row .column p {
     text-align: center;
     font-weight: bold;
@@ -343,71 +334,13 @@ img {
     margin-bottom: 20px;
 }
 
-.work .content .workBx {
-    animation: fade 2s linear forwards;
-    width:500px;
-    padding:20px;
-}
-
-.work .content .testClass {
-    position: relative;
-    bottom: 100px;
-}
-
-.work .content .testClass2 {
-    position: relative;
-    bottom: 590px;
-}
-
-.work .content .testClass3 {
-    position: relative;
-    bottom: 780px;
-    right: 500px;
-    margin-bottom: 0;
-}
-
-.work .content .testClass4 {
-    position: relative;
-    bottom: 680px;
-}
-
-.work .content .testClass5 {
-    position: relative;
-    right: 500px;
-    bottom: 250px;
-}
-
-.work .content .workBx img {
-    max-width:100%;
-    border:1px solid rgba(0,0,0,0.4);
-    cursor:pointer;
-}
-
-.work .content .workBx img:hover {
-    box-shadow:0 0 20px 5px #ccc;
-    transform:scale(1.008);
-    -webkit-transform:scale(1.008);
-    -moz-transform:scale(1.008);
-    -ms-transform:scale(1.008);
-    -o-transform:scale(1.008);
-    transition:0.5s;
-    -webkit-transition:0.5s;
-    -moz-transition:0.5s;
-    -ms-transition:0.5s;
-    -o-transition:0.5s;
-}
-
-.work .content .workBx p {
-    text-align:center;
-}
-
-.darkmode--activated .work .content .workBx p {
+/* .darkmode--activated .work .row .column p {
     color: white;
-}
+} */
 
-.work .content .workBx a:link,
-.work .content .workBx a:visited,
-.work .content .workBx a:active {
+.work .row .column a:link,
+.work .row .column a:visited,
+.work .row .column a:active {
     color:#161616;
     text-decoration: none;
     font-weight: 600;
@@ -473,23 +406,7 @@ footer.copyright {
 }
 
 @media (max-width: 1670px) {
-    .work .content .testClass {
-        top: 1px;
-    }
-
-    .work .content .testClass2 {
-        top: 1px;
-    }
-
-    .work .content .testClass4 {
-        position: relative;
-        bottom: 90px;
-    }
-
-    .work .content .testClass5 {
-        position: relative;
-        bottom: 190px;
-    }
+    /* EMPTY */
 }
 
 @media (max-width: 1200px) {
@@ -527,16 +444,12 @@ footer.copyright {
 
 @media (max-width: 1170px) {
     .work .row .column {
-        flex: 50%;
-        max-width: 50%;
+        flex: 55%;
+        max-width: 55%;
     }
 
-    .work .content .testClass4 {
-        top: 1px;
-    }
-
-    .work .content .testClass5 {
-        top: 1px;
+    .work .row .column:not(:first-child) {
+        margin-left: 0px;
     }
 }
 
